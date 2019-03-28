@@ -1,0 +1,7 @@
+﻿  MainClass.c
+d:\c# projects\си алгоритмы\урок 1\lesson1\lesson1\lesson1\mainclass.c(59): warning C4013: system: нет определения; предполагается "extern" с возвратом типа "int"
+d:\c# projects\си алгоритмы\урок 1\lesson1\lesson1\lesson1\mainclass.c(233): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+d:\c# projects\си алгоритмы\урок 1\lesson1\lesson1\lesson1\mainclass.c(234): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+d:\c# projects\си алгоритмы\урок 1\lesson1\lesson1\lesson1\mainclass.c(328): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+d:\c# projects\си алгоритмы\урок 1\lesson1\lesson1\lesson1\mainclass.c(329): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  Lesson1.vcxproj -> D:\C# projects\Си Алгоритмы\Урок 1\Lesson1\Lesson1\Debug\Lesson1.exe
