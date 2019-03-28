@@ -279,23 +279,25 @@ void solution6()
 {
 	printf("6. Вывод возраста человека\n");
 	int age = 0;
-	
+	int balance = 0;
 	scanf("%i", &age);
-	if (age>=1 && age <=150)
+	
+	if (age >= 1 && age <= 150)
 	{
-		if (age==1 || age == 21)
+		balance = age % 10;
+		if (balance == 1)
 		{
 			printf("%i Год\n", age);
 		}
-		if ((age >= 2 && age <= 4)||(age>=22&&age<24) )
+		if ((balance >= 2 && balance <= 4)&&age>21)
 		{
 			printf("%i Года\n", age);
 		}
-		if ((age >= 5 && age <= 20)||(age>=25))
+		if ((balance >= 5 && balance <= 9)|| balance == 0|| (age >= 5 && age <= 20))
 		{
 			printf("%i Лет\n", age);
 		}
-	}
+	}	
 	system("pause");
 }
 
